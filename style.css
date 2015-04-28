@@ -1,8 +1,79 @@
 body {
+	font-family: 'Pompiere', sans-serif;
 	text-align: center;
+	letter-spacing: 2.5px
+	max-width: 1300px;
+}
+
+header {
+	/*outline: solid black 2px;*/
+	margin-bottom: 30px;
+	border-bottom: 4px double black;
+}
+
+#content-container {
+	/*outline: solid black 2px;*/
+}
+
+#panel-left, #panel-right {
+	/*outline: solid black 2px;*/
+	width: 35%;
+}
+
+#panel-left {
+	float: left;
+}
+
+#panel-right {
+	float: right;
+}
+
+.gallery > img {
+	width: 8em;
 }
 
 #main {
-	font-family: 'Pompiere', sans-serif;
-	font-size: 24px;
+	/*outline: solid black 2px;*/
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 10px 0 20px;
+	width: 35%;
 }
+
+#appt-btn {
+	margin: 20px;
+	margin-top: 40px;
+
+}
+
+#appt-btn > a {
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 12px;
+	padding-top: 12px;
+	background: black;
+	color: white;
+	border-radius: 5px;
+}
+
+#appt-btn > a:hover {
+	background: #556B2F;
+	color: white;
+}
+
+#underline {
+	/*outline: solid black 2px;*/
+	width: 10%;
+}
+
+footer {
+	width: 10%;
+	bottom: 0;
+	font-size: 8pt;
+	position: fixed;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 45%;
+}
+
